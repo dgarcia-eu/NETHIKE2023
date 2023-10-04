@@ -318,10 +318,10 @@ LEIA outperforms supervised and unsupervised methods for all emotions and test d
 
 - LEIA is best or tied with the best in all out-of-domain tests
 - LEIA is best or tied with the best in all emotions except Fear in TEC
-- Performance is very high for two reference standards: enISEAR and SemEval
+- LEIA vs VADER vs LIWC in sentiment classification:
 
-Try it yourself:
-https://huggingface.co/saroyehun/LEIA-large
+![:scale 95%](figures/LEIAvsVADER.png)
+
 
 ---
 
@@ -333,7 +333,10 @@ https://huggingface.co/saroyehun/LEIA-large
 
 # Error analysis with LIME
 
-.center[![](figures/LIME.png)]
+.center[![:scale 83%](figures/LIME.png)]
+
+Try it yourself:
+https://huggingface.co/saroyehun/LEIA-large
 
 ---
 
